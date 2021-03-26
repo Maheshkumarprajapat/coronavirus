@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.section-padding{
+    padding: 80px 0 20px;
+}
+
+/* Navbar */
+.navbar{
+    box-shadow: 0 6px 6px rgba(0,0,0,0.1);
+    padding: 2px 0;
+}
+.navbar .container .navbar-brand .logo{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.navbar .container .navbar-brand .logo img{
+    width: 100%;
+    height: 100%;
+    animation: root 10s linear infinite;
+}
+@keyframes root{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+/* .{
+    box-shadow: 0.5rem 1rem rgba(0,0,0,0.15);
+} */
+
+.navbar .container .navbar-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: crimson; 
+}
+
+.navbar .navbar-nav .nav-item .nav-link{
+    color: crimson;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 10px;
+    transition: all 0.5s ease;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: crimson;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    background-color: crimson;
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
+
+/* Home Section */
+.home-section{
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* max-height: 100vh; */
+}
+.home-section .home-text{
+    padding-top: 10%;
+}
+.home-section .home-text span{
+    color: crimson;
+    font-size: 30px;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.home-section .home-text h1{
+    color: green;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.home-section .home-text p{
+    font-size: 18px;
+    color: #fff;
+    padding: 20px 0 20px;
+
+}
+.btn {
+    color: #fff;
+    background-color: crimson;
+    padding: 7px 20px 7px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    border: none;
+}
+.btn:hover{
+    color: #fff;
+    background-color: green;
+}
+
+/* -----------About Section------- */
+
+.about-section .about-text span{
+    color: crimson;
+    font-size: 25px;
+    font-weight:600;
+}
+.about-section .about-text h2{
+    color: green;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 10px 0 10px;
+}
+.about-section .about-text p{
+    color: gray;
+    font-size: 18px;
+}
+.about-section .about-img img{
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+}
+
+/* Gallery Section  */
+.gallery-section .gallery-title{
+    text-align: center;
+    width: 100%;
+}
+.gallery-section .gallery-title h2{
+    color: green;
+    font-weight: 700;
+}
+.gallery-section .gallery-title p{
+    color: grey;
+    font-size: 18px;
+    padding: 10px 0 10px;
+}
+.gallery-group .card img{
+    border-radius: 10px;
+}
+
+.gallery-group .card{
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    margin: 5px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.5s ease;
+    height: 100%;
+    /* margin-bottom: 20px; */
+}
+.card_tab {
+    margin-bottom: 35px;
+}
+.gallery-group .card:hover{
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    transform: translateY(10px);
+}
+.gallery-group .card .card-title{
+    color: green;
+    font-size: 25px;
+    font-weight: 500;
+}
+.gallery-group .card .card-text{
+    color: grey;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Post Section Start */
+.post-section .post-title{
+    text-align: center;
+    width: 100%;
+}
+.post-section .post-title h2{
+    color: green;
+    font-weight: 700;
+}
+.post-section .post-title p{
+    color: grey;
+    font-size: 18px;
+    padding: 10px 0 10px;
+}
+.post-section .post-img .post-img-item{
+    padding-bottom: 30px;
+    height: 275px;
+}
+.post-section .post-img .post-img-item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.post-section .post-img .post-img-item img:hover{
+    transition: all 0.5s ease;
+    transform: translateY(10px);
+}
+/* Post Section End */
+
+/* Blog Section Strat */ 
+.blog-section .blog-title{
+    text-align: center;
+    width: 100%;
+}
+.blog-section .blog-title h2{
+    color: green;
+    font-weight: 700;
+}
+.blog-section .blog-title p{
+    color: grey;
+    font-size: 18px;
+    padding: 10px 0 10px;
+}
+.blog-section .blog-text .blog-text-item h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: green;
+    text-align: center;
+}
+.blog-section .blog-text .blog-text-item p{
+    font-size: 18px;
+    font-weight: 400;
+    color: gray;
+    padding: 5px 5px;
+}
+.blog-section .blog-text .blog-box{
+    padding-bottom: 25px;
+    display: flex;
+    height: 100%;
+}
+.blog-section .blog-text .blog-text-item{
+    border-radius: 10px;
+    box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+    margin: 5px;
+    padding: 20px;
+    text-align: justify;
+    transition: all 0.5s ease;
+}
+.blog-section .blog-text .blog-text-item:hover{
+    border-radius: 10px;
+    transition: all 0.5s ease;
+    transform: translateY(10px);
+}
+/* Blog Section End*/
+
+/* Contact Section Start */
+.contact .contact-title{
+    text-align: center;
+    width: 100%;
+}
+.contact .contact-title h2{
+    color: green;
+    font-weight: 700;
+    padding-bottom: 50px;
+}
+.contact .contact-img img{
+    border-radius: 10px;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.3);
+}
+.contact .contact-form .form-group .form-control{
+    height: 52px;
+    border: 1px solid transparent;
+    box-shadow: 0 5px 6px rgba(0,0,0,0.3);
+    border-radius: 30px;
+    padding: 0px 24px;
+}
+.contact-form textarea.form-control{
+    height: 140px;
+    padding-top: 12px;
+    resize: none;
+}
+/* Contact Section End */
+
+/* Footer Section Start */
+.footer-section p{
+    text-align: center;
+    width: 100%;
+    padding: 25px 0 25px;
+    color: crimson;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* Footer Section End */
+
+
+@media (max-width: 768px){
+    .home-section .home-text span{
+        font-size: 20px;
+    }
+    .home-section .home-text h1{
+        font-size: 35px;
+    }
+}
+@media (max-width: 576px){
+    .about-section .about-img{
+        margin-top: 20px;
+    }
+    .contact .contact-img{
+        margin-bottom: 40px;
+    }
+    .section-padding{
+        padding-top: 10px;
+    }
+}
